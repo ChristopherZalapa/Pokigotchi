@@ -1,1 +1,40 @@
-*
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Raleway:wght@100;200;300&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container-welcome {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	h1 {
+		margin: 10rem;
+		font-family: "Lato", sans-serif;
+	}
+
+	input {
+		font-family: "Raleway", sans-serif;
+		padding: 0.5rem;
+        margin: 0.5rem;
+        border: .1rem solid #000;
+        border-radius: .1rem;
+
+	}
+    .input-name:focus {
+        outline: none;
+    }
+
+	button {
+        font-family: "Raleway", sans-serif;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border: none;
+        border-radius: .2rem;
+	}
+}
